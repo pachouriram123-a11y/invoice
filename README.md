@@ -1,97 +1,146 @@
-# 📸 Invoice Automation Demonstration
+# 📸 Invoice Dataset & Report Demonstration
 
-This section showcases the invoice dataset preparation and automated invoice report generation used within the project workflow.
+This section demonstrates the invoice dataset preparation, Excel-based financial records, and automated report generation integrated into the workflow.
 
 ---
 
 ## 📊 Invoice Dataset (Google Sheets)
 
-![Invoice Dataset](./assets/invoice-dataset.png)
+<p align="center">
+<img src="assets/invoice-dataset.png" width="1000"/>
+</p>
 
-A structured invoice dataset was created and maintained in Google Sheets to simulate real business invoice operations and reporting.
+The invoice dataset was prepared in Google Sheets to simulate real business invoice processing and reporting activities.
 
-### Highlights
-- Professional invoice data structure with **15 business-oriented columns**
-- Includes invoice details, client information, service records, and payment tracking
-- Automatic financial calculations using **GST and total invoice values**
-- Designed as an input source for reporting and automation workflows
+### Key Highlights
 
-### Key Dataset Fields
-| Field |
-|-------|
-| Invoice Number |
-| Invoice Date |
-| Due Date |
-| Company |
-| Client Name |
-| Client City |
-| Invoice Type |
+* Structured financial dataset with **15 business-oriented columns**
+* Automatic invoice amount and GST calculations
+* Organized client and billing records
+* Supports business reporting and workflow automation
+* Used as source data for invoice generation
+
+### Dataset Includes
+
+| Field               |
+| ------------------- |
+| Invoice Number      |
+| Invoice Date        |
+| Due Date            |
+| Company             |
+| Client Name         |
+| Client City         |
+| Invoice Type        |
 | Service Description |
-| Quantity |
-| Unit Price |
-| Line Amount |
-| GST % |
-| GST Amount |
-| Total Amount |
-| Payment Status |
+| Quantity            |
+| Unit Price          |
+| Line Amount         |
+| GST %               |
+| GST Amount          |
+| Total Amount        |
+| Payment Status      |
 
 ---
 
-## 📁 Source Excel Dataset
+## 📁 Source Excel Dataset (invoice 2.xlsx)
 
-![Excel Dataset](./assets/invoice-excel.png)
+<p align="center">
+<img src="assets/invoice-excel.png" width="1000"/>
+</p>
 
-The invoice dataset was also maintained in Excel format for structured storage, validation, and workflow execution.
+The invoice dataset was maintained in Excel format to support automated extraction, financial calculations, and reporting processes.
 
 ### Business Purpose
-- Store invoice records in a reusable format
-- Enable automated extraction and reporting
-- Support finance and operational monitoring
-- Provide clean input data for downstream automation
+
+* Centralized invoice storage
+* Easy validation and data updates
+* Supports automation pipelines
+* Improves operational efficiency
+* Enables financial reporting workflows
 
 ### Dataset Features
-- Multi-column structured financial data
-- GST-based calculations
-- Client and invoice tracking
-- Paid and pending payment monitoring
-- Ready for business reporting workflows
+
+* Structured invoice records
+* Financial calculations
+* GST automation
+* Payment tracking
+* Client management
+* Business-ready formatting
 
 ---
 
 ## 📄 Professional Invoice Report (Generated Output)
 
-![Professional Invoice Report](./assets/professional-invoice-report.png)
+<p align="center">
+<img src="assets/professional-invoice-report.png" width="1000"/>
+</p>
 
-A professional PDF invoice report was generated automatically from the prepared invoice dataset.
+The final invoice report was automatically generated using the prepared invoice dataset.
 
-### Output Features
-- Automated invoice extraction
-- Business-ready PDF formatting
-- Clean invoice summary presentation
-- Supports financial documentation and reporting
+### Report Features
 
-### Generated Report Includes
-- Invoice Number
-- Date
-- Vendor
-- Subtotal
-- Tax Calculation
-- Final Invoice Amount
+* Automated invoice extraction
+* Professional PDF formatting
+* Financial summary generation
+* Business-ready document output
+* Clean presentation structure
+
+### Generated Report Contains
+
+* Invoice Number
+* Invoice Date
+* Company Information
+* Client Information
+* Invoice Summary
+* Tax Calculation
+* Final Amount
+* Payment Status
 
 ---
 
-### 📌 Automation Flow
+## 🔄 Invoice Automation Workflow
 
 ```text
-Excel / Google Sheets
-        ↓
+Google Sheets / Excel
+          ↓
 Invoice Extraction
-        ↓
+          ↓
 Data Validation
-        ↓
-Report Generation
-        ↓
+          ↓
+Financial Calculation
+          ↓
+Invoice Report Generation
+          ↓
 Professional PDF Output
 ```
 
-This demonstrates an end-to-end invoice processing and reporting workflow integrated into the automation project.
+---
+
+## 📂 Folder Structure
+
+```text
+financial-fraud-automation/
+│
+├── README.md
+│
+├── invoice 2.xlsx
+│
+└── assets/
+    ├── invoice-dataset.png
+    ├── invoice-excel.png
+    └── professional-invoice-report.png
+```
+
+---
+
+## 🚀 Business Outcome
+
+This implementation demonstrates how structured invoice datasets can be transformed into professional financial reports using automation tools and modern workflow processes.
+
+Benefits achieved:
+
+✅ Reduced manual reporting effort
+✅ Faster invoice generation
+✅ Improved data accuracy
+✅ Better financial documentation
+✅ Scalable automation workflow

@@ -1,150 +1,72 @@
 # 📸 Invoice Dataset & Automated Report Demonstration
 
-This section presents the newly created invoice dataset, Excel records, and professional invoice report generated through automation.
-
 ---
 
 ## 📊 Invoice Dataset (Google Sheets)
 
-<div align="center">
+<p align="center">
+<img src="./invoice-dataset.png.png" width="1200">
+</p>
 
-<img src="./assets/invoice-dataset.png" alt="Invoice Dataset" width="1100"/>
-
-</div>
-
-The invoice dataset was created and maintained in Google Sheets to simulate professional financial operations and invoice processing.
+The invoice dataset was created and maintained in Google Sheets to simulate professional financial invoice processing.
 
 ### Highlights
 
-✅ Structured invoice records
-✅ Financial calculations included
-✅ GST computation
-✅ Client information management
-✅ Payment tracking support
-✅ Automation-ready dataset
-
-### Dataset Columns
-
-| Column              |
-| ------------------- |
-| Invoice Number      |
-| Invoice Date        |
-| Due Date            |
-| Company             |
-| Client Name         |
-| Client City         |
-| Invoice Type        |
-| Service Description |
-| Quantity            |
-| Unit Price          |
-| Line Amount         |
-| GST %               |
-| GST Amount          |
-| Total Amount        |
-| Payment Status      |
+* Structured invoice records
+* Financial calculations included
+* GST computation
+* Client information management
+* Payment tracking support
+* Automation-ready dataset
 
 ---
 
-## 📁 Source Excel Dataset (invoice 2.xlsx)
+## 📁 Source Excel Dataset
 
-<div align="center">
+<p align="center">
+<img src="./invoice-excel.png.png" width="1200">
+</p>
 
-<img src="./assets/invoice-excel.png" alt="Invoice Excel Dataset" width="1100"/>
+The Excel dataset was used for invoice storage, reporting, and workflow automation.
 
-</div>
+### Features
 
-The Excel dataset was used as structured input for invoice reporting and business automation.
-
-### Dataset Features
-
-* Professional invoice structure
+* Structured financial records
+* Business reporting
 * Financial calculations
-* Business reporting support
-* Payment monitoring
-* Organized records
-* Workflow integration
-
-### Business Purpose
-
-* Store invoice information
-* Reduce manual work
-* Improve reporting quality
-* Enable reusable datasets
+* Organized invoice management
 
 ---
 
-## 📄 Professional Invoice Report (Generated Output)
+## 📄 Professional Invoice Report
 
-<div align="center">
+<p align="center">
+<img src="./professional-invoice-report.png.png" width="1200">
+</p>
 
-<img src="./assets/professional-invoice-report.png" alt="Professional Invoice Report" width="1100"/>
+Professional invoice reports were automatically generated from invoice data.
 
-</div>
-
-Professional invoice reports were generated automatically from prepared financial data.
-
-### Generated Report Includes
+### Report Includes
 
 * Invoice Number
-* Invoice Date
-* Company Information
-* Client Information
-* Financial Summary
+* Date
+* Vendor
 * GST Calculation
-* Final Amount
+* Total Amount
 * Payment Status
-
-### Output Benefits
-
-✔ Professional formatting
-✔ Faster reporting
-✔ Automated document generation
-✔ Better operational efficiency
 
 ---
 
-# 🔄 Invoice Automation Workflow
+# 🔄 Automation Flow
 
 ```text
 Google Sheets / Excel
           ↓
-Data Extraction
+Invoice Extraction
           ↓
-Invoice Validation
+Data Validation
           ↓
-Financial Processing
+Invoice Generation
           ↓
-Invoice Report Creation
-          ↓
-Professional Output
+PDF Report Output
 ```
-
----
-
-# 📂 Repository Structure
-
-```text
-financial-fraud-automation/
-│
-├── README.md
-├── invoice 2.xlsx
-│
-└── assets/
-    ├── invoice-dataset.png
-    ├── invoice-excel.png
-    └── professional-invoice-report.png
-```
-
----
-
-# 🚀 Outcome
-
-This implementation demonstrates automated invoice preparation and report generation using structured datasets.
-
-### Results
-
-✅ Faster processing
-✅ Reduced manual effort
-✅ Professional documentation
-✅ Better financial reporting
-✅ Scalable automation workflow

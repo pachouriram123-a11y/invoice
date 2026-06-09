@@ -1,28 +1,31 @@
-# 📸 Invoice Dataset & Report Demonstration
+# 📸 Invoice Dataset & Automated Report Demonstration
 
-This section demonstrates the invoice dataset preparation, Excel-based financial records, and automated report generation integrated into the workflow.
+This section presents the newly created invoice dataset, Excel records, and professional invoice report generated through automation.
 
 ---
 
 ## 📊 Invoice Dataset (Google Sheets)
 
-<p align="center">
-<img src="assets/invoice-dataset.png" width="1000"/>
-</p>
+<div align="center">
 
-The invoice dataset was prepared in Google Sheets to simulate real business invoice processing and reporting activities.
+<img src="./assets/invoice-dataset.png" alt="Invoice Dataset" width="1100"/>
 
-### Key Highlights
+</div>
 
-* Structured financial dataset with **15 business-oriented columns**
-* Automatic invoice amount and GST calculations
-* Organized client and billing records
-* Supports business reporting and workflow automation
-* Used as source data for invoice generation
+The invoice dataset was created and maintained in Google Sheets to simulate professional financial operations and invoice processing.
 
-### Dataset Includes
+### Highlights
 
-| Field               |
+✅ Structured invoice records
+✅ Financial calculations included
+✅ GST computation
+✅ Client information management
+✅ Payment tracking support
+✅ Automation-ready dataset
+
+### Dataset Columns
+
+| Column              |
 | ------------------- |
 | Invoice Number      |
 | Invoice Date        |
@@ -44,85 +47,86 @@ The invoice dataset was prepared in Google Sheets to simulate real business invo
 
 ## 📁 Source Excel Dataset (invoice 2.xlsx)
 
-<p align="center">
-<img src="assets/invoice-excel.png" width="1000"/>
-</p>
+<div align="center">
 
-The invoice dataset was maintained in Excel format to support automated extraction, financial calculations, and reporting processes.
+<img src="./assets/invoice-excel.png" alt="Invoice Excel Dataset" width="1100"/>
 
-### Business Purpose
+</div>
 
-* Centralized invoice storage
-* Easy validation and data updates
-* Supports automation pipelines
-* Improves operational efficiency
-* Enables financial reporting workflows
+The Excel dataset was used as structured input for invoice reporting and business automation.
 
 ### Dataset Features
 
-* Structured invoice records
+* Professional invoice structure
 * Financial calculations
-* GST automation
-* Payment tracking
-* Client management
-* Business-ready formatting
+* Business reporting support
+* Payment monitoring
+* Organized records
+* Workflow integration
+
+### Business Purpose
+
+* Store invoice information
+* Reduce manual work
+* Improve reporting quality
+* Enable reusable datasets
 
 ---
 
 ## 📄 Professional Invoice Report (Generated Output)
 
-<p align="center">
-<img src="assets/professional-invoice-report.png" width="1000"/>
-</p>
+<div align="center">
 
-The final invoice report was automatically generated using the prepared invoice dataset.
+<img src="./assets/professional-invoice-report.png" alt="Professional Invoice Report" width="1100"/>
 
-### Report Features
+</div>
 
-* Automated invoice extraction
-* Professional PDF formatting
-* Financial summary generation
-* Business-ready document output
-* Clean presentation structure
+Professional invoice reports were generated automatically from prepared financial data.
 
-### Generated Report Contains
+### Generated Report Includes
 
 * Invoice Number
 * Invoice Date
 * Company Information
 * Client Information
-* Invoice Summary
-* Tax Calculation
+* Financial Summary
+* GST Calculation
 * Final Amount
 * Payment Status
 
+### Output Benefits
+
+✔ Professional formatting
+✔ Faster reporting
+✔ Automated document generation
+✔ Better operational efficiency
+
 ---
 
-## 🔄 Invoice Automation Workflow
+# 🔄 Invoice Automation Workflow
 
 ```text
 Google Sheets / Excel
           ↓
-Invoice Extraction
+Data Extraction
           ↓
-Data Validation
+Invoice Validation
           ↓
-Financial Calculation
+Financial Processing
           ↓
-Invoice Report Generation
+Invoice Report Creation
           ↓
-Professional PDF Output
+Professional Output
 ```
 
 ---
 
-## 📂 Folder Structure
+# 📂 Repository Structure
 
 ```text
 financial-fraud-automation/
 │
 ├── README.md
-│
 ├── invoice 2.xlsx
 │
 └── assets/
@@ -133,14 +137,14 @@ financial-fraud-automation/
 
 ---
 
-## 🚀 Business Outcome
+# 🚀 Outcome
 
-This implementation demonstrates how structured invoice datasets can be transformed into professional financial reports using automation tools and modern workflow processes.
+This implementation demonstrates automated invoice preparation and report generation using structured datasets.
 
-Benefits achieved:
+### Results
 
-✅ Reduced manual reporting effort
-✅ Faster invoice generation
-✅ Improved data accuracy
-✅ Better financial documentation
+✅ Faster processing
+✅ Reduced manual effort
+✅ Professional documentation
+✅ Better financial reporting
 ✅ Scalable automation workflow
